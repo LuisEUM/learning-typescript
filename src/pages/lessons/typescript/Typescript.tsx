@@ -1,11 +1,11 @@
-//import React from 'react';
+// import React from 'react';
 
-const TypeScript = () => {
+function TypeScript() {
   return (
-    <div> 
+    <div>
       <h1>Que es TypeScript?</h1>
     </div>
-  )
+  );
 }
 
-export default TypeScript
+export default TypeScript;
