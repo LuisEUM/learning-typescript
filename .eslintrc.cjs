@@ -1,7 +1,9 @@
 module.exports = {
   env: { browser: true, es2020: true },
   extends: [
-    'eslint:recommended',
+    'airbnb',
+    'airbnb-typescript',
+    'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
   ],
@@ -11,4 +13,4 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
-}
+};
