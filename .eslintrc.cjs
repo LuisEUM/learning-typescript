@@ -7,6 +7,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
     'plugin:react/jsx-runtime',
+    'plugin:prettier/recommended',
+    'plugin:react/jsx-runtime',
+    'eslint-config-prettier'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -17,7 +20,6 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn',
-    'linebreak-style': ['error', 'windows'],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 

@@ -3,7 +3,8 @@ import NavBar from './components/header/Navbar';
 import Home from './pages/home/Home';
 import Lessons from './pages/lessons/Lessons';
 import Contact from './pages/contact/Contact';
-import WhatIsTypeScript from './pages/lessons/typescript/Typescript';
+import WhatIsTypeScript from './pages/lessons/typescript/Typescript1';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/lessons/1" element={<WhatIsTypeScript />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer/>
     </>
   );
 }
